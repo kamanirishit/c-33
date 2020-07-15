@@ -61,7 +61,6 @@ function draw(){
     box1.display();
     box2.display();
     ground.display();
-    console.log(log1.body);
     pig1.display();
     pig1.score();
     log1.display();
@@ -123,5 +122,5 @@ async function getBackgroundImg(){
     }
 
     backgroundImg = loadImage(bg);
-    console.log(backgroundImg);
+    console.log(hour);
 }
